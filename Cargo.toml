@@ -81,6 +81,7 @@ members = [
     "examples/custom-inspector/",
     "examples/exex/minimal/",
     "examples/exex/op-bridge/",
+    "examples/exex/bevy-bridge/",
     "testing/ef-tests/",
 ]
 default-members = ["bin/reth"]
