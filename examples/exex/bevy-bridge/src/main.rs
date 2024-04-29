@@ -41,7 +41,7 @@ fn spawn_players(mut commands: Commands) {
     commands.spawn((PlayerBundle {
         account: PlayerAccountResource {
             handle: 0,
-            address: "0x7d873FbFE8e16f5F55740a52a356c2f52c613cdF".to_string(),
+            address: "0xCAFEBEEF".to_string(),
             balance: 0,
         },
         sprite: SpriteBundle {
@@ -57,7 +57,7 @@ fn spawn_players(mut commands: Commands) {
     commands.spawn((PlayerBundle {
         account: PlayerAccountResource {
             handle: 1,
-            address: "0x7f93B033D18dcA9fD2BA4CbF2bf73A2DF840756c".to_string(),
+            address: "0xDEADBEEF".to_string(),
             balance: 0,
         },
         sprite: SpriteBundle {
